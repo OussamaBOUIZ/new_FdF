@@ -6,7 +6,7 @@
 /*   By: obouizga <obouizga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/19 16:29:42 by obouizga          #+#    #+#             */
-/*   Updated: 2022/06/07 19:26:10 by obouizga         ###   ########.fr       */
+/*   Updated: 2022/06/09 17:07:36 by obouizga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,15 +105,3 @@ void	plot_line(t_iso a, t_iso b, t_data *img, t_off offset)
 			plot_line_high(a, b, img, offset);
 	}
 }
-
-
-/*
-	echo "# new_FdF" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/OussamaBOUIZ/new_FdF.git
-git push -u origin main
-
-*/

@@ -6,7 +6,7 @@
 /*   By: obouizga <obouizga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/18 15:07:23 by obouizga          #+#    #+#             */
-/*   Updated: 2022/06/07 18:48:57 by obouizga         ###   ########.fr       */
+/*   Updated: 2022/06/09 17:06:49 by obouizga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,14 +43,9 @@ void	drawing(t_sh sh, int *row_col, t_data *img)
 		while (i <= row_col[1] - 1)
 		{
 			if (i < row_col[1] - 1)
-			{
 				plot_line(sh.iso[j][i], sh.iso[j][i + 1], img, offset);
-				
-			}
 			if (j < row_col[0] - 1)
-			{
 				plot_line(sh.iso[j][i], sh.iso[j + 1][i], img, offset);
-			}
 			i++;
 		}
 		j++;
